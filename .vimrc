@@ -29,6 +29,17 @@
 " libraries and CTRL+T to jump back to source code.
 " ============================================
 
+
+" ============================================
+" To enable code completion support for Python add following line
+  autocmd FileType python set omnifunc=pythoncomplete#Complete
+  inoremap <Nul> <C-x><C-o>
+
+  "
+  "
+"
+" ============================================
+
 " python freely jump between code and python class libraries
 " python << EOF
 " import os
